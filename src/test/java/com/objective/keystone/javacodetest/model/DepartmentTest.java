@@ -36,13 +36,13 @@ public class DepartmentTest {
         c.getDepartments().add(d2);
         
         Project d1p1 = new Project("Department 1 project 1");
-        Project d1p2 = new Project("Department 1 project 1");
+        Project d1p2 = new Project("Department 1 project 2");
         d1.getProjects().add(d1p1);
         d1.getProjects().add(d1p2);
         
         
         Project d2p1 = new Project("Department 2 project 1");
-        Project d2p2 = new Project("Department 2 project 1");
+        Project d2p2 = new Project("Department 2 project 2");
         d2.getProjects().add(d2p1);
         d2.getProjects().add(d2p2);
         
